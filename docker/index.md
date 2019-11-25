@@ -1,3 +1,7 @@
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
 ## Goal
 
 The goal of this workshop is to get you accustomed to working with docker. After this workshop is done you should be able to:
@@ -9,6 +13,8 @@ The goal of this workshop is to get you accustomed to working with docker. After
 5. create a multi-stage build
 6. push a docker image to the registry
 
-<div>
-  <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Next</a>
-</div>
+
+## Contents
+
+* <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
+* <a href="https://workshops.emanuelciuca.com/docker/build-docker">Building a docker image</a>
