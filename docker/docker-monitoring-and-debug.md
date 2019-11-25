@@ -6,6 +6,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
 * <span>**Monitoring and debugging containers**</span>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-network">Inter-container communication</a>
 
 ## Monitoring and debugging containers
 
