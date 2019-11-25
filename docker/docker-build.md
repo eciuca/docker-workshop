@@ -3,6 +3,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker">Goals</a>
 * <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
 * <span>**Building a docker image**</span>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
 
 ## Building a docker image
 
@@ -88,13 +89,13 @@ Successfully tagged greetings-ws:latest
 
 If one wants to see how a docker image was built, a very useful command is:
 
-```
+```cmd
 $ docker history 99db7fcab4c3
 ```
 
 The output will show information about every layer
 
-```
+```cmd
 IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
 99db7fcab4c3        3 hours ago         /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "java…   0B                  
 1841358158c7        3 hours ago         /bin/sh -c #(nop) COPY file:b852d9538176de45…   38.7MB              
@@ -115,7 +116,7 @@ e9ee535ba1b1        6 days ago          /bin/sh -c #(nop)  CMD ["jshell"]       
 
 Another useful command is `docker images`. This command will display all the images present on the local computer.
 
-```
+```cmd
 REPOSITORY       TAG        IMAGE ID            CREATED             SIZE
 greetings-ws     latest     99db7fcab4c3        2 seconds ago       529MB
 openjdk          13         e9ee535ba1b1        6 days ago          491MB
