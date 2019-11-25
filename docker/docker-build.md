@@ -1,31 +1,59 @@
 ## Building a docker image
 
-Pre-requisites
+## Pre-requisites
 
-Checkout the following repository:
-
-```
-	git clone https://github.com/eciuca/greetings-webservice.git
-```
-
-Go to the project root directory:
+### Checkout the following repository:
 
 ```
-	cd greetings-webservice
+$ git clone https://github.com/eciuca/greetings-webservice.git
 ```
 
-Build the project
+### Go to the project root directory:
 
-Linux/MacOS
 ```
-	./build.sh
-```
-Windows
-```
-	build.bat
+$ cd greetings-webservice
 ```
 
-The goal of this workshop is to get you accustomed to working with docker. After this workshop is done you should be able to:
+## Build the project
+
+### Linux/MacOS
+```
+$ ./build.sh
+```
+Note: you might need to run `chmod +x *.sh` before to make all the .sh files executable
+
+### Windows
+```
+$ build.bat
+```
+
+
+## Run the webservice
+
+### Linux/MacOS
+```
+$ ./run.sh
+```
+
+### Windows
+```
+$ run.bat
+```
+
+1. Building a docker image
+
+```
+$ docker build -t greetings-ws:latest .
+```
+
+2. Run a docker image
+```
+$ docker run -p 8080:8080 greetings-ws
+```
+
+
+
+
 
 ```markdown
 Syntax highlighted code block
