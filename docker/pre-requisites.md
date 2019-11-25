@@ -1,3 +1,9 @@
+## Contents
+
+* <a href="https://workshops.emanuelciuca.com/docker">Goals</a>
+* <span>**Pre-requisites**</span>
+* <a href="https://workshops.emanuelciuca.com/docker/build-docker">Building a docker image</a>
+
 ## Pre-requisites
 
 ### Checkout the following repository:
