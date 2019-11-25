@@ -5,6 +5,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/docker-build">Building a docker image</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
 * <span>**Monitoring and debugging containers**</span>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
 
 ## Monitoring and debugging containers
 
@@ -58,3 +59,11 @@ $ docker exec -it crazy-cow /bin/bash
 ```
 
 This is the equivalent of ssh-ing into another machine. From there you can go anywhere you want inside the container and check if everything is as expected
+
+### Killing a container
+
+```cmd
+$ docker kill crazy-cow
+```
+
+Because that's what you do to cattle when they don't serve you anymore :)

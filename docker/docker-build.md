@@ -5,6 +5,7 @@
 * <span>**Building a docker image**</span>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-monitoring-and-debug">Monitoring and debugging containers</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
 
 ## Building a docker image
 
