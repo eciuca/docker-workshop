@@ -1,7 +1,3 @@
-| foo | bar |
-| --- | --- |
-| baz | bim |
-
 ## Goal
 
 The goal of this workshop is to get you accustomed to working with docker. After this workshop is done you should be able to:
