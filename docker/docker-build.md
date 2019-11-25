@@ -83,3 +83,40 @@ The last 2 lines print the last layer (container layer) hash and the image name 
 Successfully built 99db7fcab4c3
 Successfully tagged greetings-ws:latest
 ```
+
+## Working with docker images
+
+If one wants to see how a docker image was built, a very useful command is:
+
+```
+$ docker history 99db7fcab4c3
+```
+
+The output will show information about every layer
+
+```
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+99db7fcab4c3        3 hours ago         /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "java…   0B                  
+1841358158c7        3 hours ago         /bin/sh -c #(nop) COPY file:b852d9538176de45…   38.7MB              
+83605da6c53f        3 hours ago         /bin/sh -c #(nop) WORKDIR /app                  0B                  
+e9ee535ba1b1        6 days ago          /bin/sh -c #(nop)  CMD ["jshell"]               0B                  
+<missing>           6 days ago          /bin/sh -c set -eux;   curl -fL -o /openjdk.…   330MB               
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV JAVA_SHA256=2e0171654…   0B                  
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV JAVA_URL=https://down…   0B                  
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV JAVA_VERSION=13.0.1      0B                  
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV PATH=/usr/java/openjd…   0B                  
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV JAVA_HOME=/usr/java/o…   0B                  
+<missing>           6 days ago          /bin/sh -c #(nop)  ENV LANG=en_US.UTF-8         0B                  
+<missing>           6 days ago          /bin/sh -c set -eux;  yum install -y   gzip …   42.2MB              
+<missing>           6 days ago          /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           6 days ago          /bin/sh -c #(nop) ADD file:c8bbabb7270612c9e…   118MB               
+<missing>           15 months ago       /bin/sh -c #(nop)  MAINTAINER Oracle Linux P…   0B 
+```
+
+Another useful command is `docker images`. This command will display all the images present on the local computer.
+
+```
+REPOSITORY       TAG        IMAGE ID            CREATED             SIZE
+greetings-ws     latest     99db7fcab4c3        2 seconds ago       529MB
+openjdk          13         e9ee535ba1b1        6 days ago          491MB
+```
