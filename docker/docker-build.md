@@ -2,7 +2,7 @@
 
 * <a href="https://workshops.emanuelciuca.com/docker">Goals</a>
 * <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
-* <span>Building a docker image</span>
+* <span>**Building a docker image**</span>
 
 ## Building a docker image
 
