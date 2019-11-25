@@ -2,8 +2,9 @@
 
 * <a href="https://workshops.emanuelciuca.com/docker">Goals</a>
 * <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
-* <a href="https://workshops.emanuelciuca.com/docker/docker-build">**Building a docker image**</a>
-* <span>Running a docker container</span>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-build">Building a docker image</a>
+* <span>**Running a docker container**</span>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-monitoring-and-debug">Monitoring and debugging containers</a>
 
 ## Running a docker container
 

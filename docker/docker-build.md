@@ -4,6 +4,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
 * <span>**Building a docker image**</span>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-monitoring-and-debug">Monitoring and debugging containers</a>
 
 ## Building a docker image
 
