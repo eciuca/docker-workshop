@@ -13,4 +13,4 @@ The goal of this workshop is to get you accustomed to working with docker. After
 ## Contents
 
 * <a href="https://workshops.emanuelciuca.com/docker/pre-requisites">Pre-requisites</a>
-* <a href="https://workshops.emanuelciuca.com/docker/build-docker">Building a docker image</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-build">Building a docker image</a>
