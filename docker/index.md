@@ -22,4 +22,4 @@ The goal of this workshop is to get you accustomed to working with docker. After
 6. create a multi-stage build
 7. push a docker image to the registry
 
-Intro presentation [here](https://docs.google.com/presentation/d/1F8LpfHmD3bIfO_yOQQ3KXw26SZQWn9bokkkoFAmaor8/edit?usp=sharing)
+Intro presentation <a href="https://docs.google.com/presentation/d/1F8LpfHmD3bIfO_yOQQ3KXw26SZQWn9bokkkoFAmaor8/edit?usp=sharing" target="_blank">here</a>
