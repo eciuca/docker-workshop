@@ -7,6 +7,7 @@
 * <span>**Monitoring and debugging containers**</span>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-network">Inter-container communication</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-multi-stage-builds">Multi-stage builds</a>
 
 ## Monitoring and debugging containers
 

@@ -6,6 +6,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/docker-run">Running a docker container</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-monitoring-and-debug">Monitoring and debugging containers</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-multi-stage-builds">Multi-stage builds</a>
 
 ## Pre-requisites
 
