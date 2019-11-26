@@ -111,12 +111,11 @@ CMD java -jar $EXECUTABLE_JAR
 Let's check our new image
 
 ```cmd
-REPOSITORY       TAG               IMAGE ID            CREATED              SIZE
 $docker images
 
+REPOSITORY       TAG               IMAGE ID            CREATED              SIZE
 greetings-ws     multi-stage       90f3fda0d811        10 seconds ago       375MB
 greetings-ws     mysqldb           faf22c3694ef        8 hours ago          377MB
-$ docker run -d -p 8080:8080 --name crazy-cow greetings-ws:mysqldb
 ```
 
 It looks like it is a little bit smaller than the mysqldb image version also :-) 
