@@ -8,6 +8,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-network">Inter-container communication</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-multi-stage-builds">Multi-stage builds</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-push">Pushing a container to a registry</a>
 
 ## Monitoring and debugging containers
 
@@ -57,7 +58,7 @@ These statistics will be printed as a continuously until `CTRL + C` is pressed
 ### Executing a terminal inside the container
 
 ```cmd
-$ docker exec -it crazy-cow /bin/bash
+$ docker exec -it crazy-cow /bin/sh
 ```
 
 This is the equivalent of ssh-ing into another machine. From there you can go anywhere you want inside the container and check if everything is as expected

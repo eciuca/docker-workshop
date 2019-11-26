@@ -8,6 +8,7 @@
 * <a href="https://workshops.emanuelciuca.com/docker/docker-volume">Working with volumes</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-network">Inter-container communication</a>
 * <a href="https://workshops.emanuelciuca.com/docker/docker-multi-stage-builds">Multi-stage builds</a>
+* <a href="https://workshops.emanuelciuca.com/docker/docker-push">Pushing a container to a registry</a>
 
 ## Goal
 
