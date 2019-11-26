@@ -21,3 +21,5 @@ The goal of this workshop is to get you accustomed to working with docker. After
 5. create 2 docker containers that can communicate
 6. create a multi-stage build
 7. push a docker image to the registry
+
+Intro presentation [here](https://docs.google.com/presentation/d/1F8LpfHmD3bIfO_yOQQ3KXw26SZQWn9bokkkoFAmaor8/edit?usp=sharing)
