@@ -45,7 +45,7 @@ As we can see the container failed to start because it cannot connect to the dat
 Then let's spin up a database container from Docker Hub: https://hub.docker.com/_/mysql
 
 ```cmd
-$ docker docker run --name mysqldb -e MYSQL_DATABASE=greetings -e MYSQL_ROOT_PASSWORD=greetings -d mysql:8
+$ docker run --name mysqldb -e MYSQL_DATABASE=greetings -e MYSQL_ROOT_PASSWORD=greetings -d mysql:8
 ```
 
 Now let's try to run the application container again

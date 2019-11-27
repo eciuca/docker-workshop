@@ -82,3 +82,5 @@ A stopped container will not lose its data. If you start it again using
 ```cmd
 $ docker start 28b68a0c15c6
 ```
+
+TODO: docker kill

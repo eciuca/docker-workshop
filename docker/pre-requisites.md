@@ -47,3 +47,7 @@ $ ./run.sh
 ```cmd
 $ run.bat
 ```
+
+### Only for Windows users.
+
+Go to Docker for Windows settings > Sharing and check the checkbox in front of the C drive to share it with the Docker host. 

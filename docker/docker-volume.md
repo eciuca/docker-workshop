@@ -68,7 +68,7 @@ In order to save the data after a container is deleted we need to attach a volum
 
 First, we need to create it
 ```cmd
-$ docker create volume crazy-cows-soul
+$ docker volume create crazy-cow-soul
 ```
 
 Then, we just need to attach the volume to the container (delete the previous container before)

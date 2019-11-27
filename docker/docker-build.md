@@ -28,7 +28,16 @@ COPY target/greetings-webservice-0.0.1-SNAPSHOT.jar /app
 CMD java -jar greetings-webservice-0.0.1-SNAPSHOT.jar
 ```
 
+Let's build our docker image
+
+```cmd
+$ docker build -t greetings-ws .
+```
+
+The `-t` argument specifies the name and tag of the image and the `.` argument tells docker that it should run the command in the current directory.
+
 Let's look at the command output. The first thing you can notice are the 4 steps being executed:
+
 ```
 Step 1/4 : FROM openjdk:13
 13: Pulling from library/openjdk
